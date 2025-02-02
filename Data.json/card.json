@@ -1,0 +1,50 @@
+[
+  {
+    "src": "../img/strawberry.png",
+    "title": "strawberry",
+    "text": " Lorem ipsum dolor sit amet consectetur. A nulla condimentum condimentum eget",
+    "price": "$ 4/-"
+  },
+  {
+    "src": "../img/honey-ice-cream.png",
+    "title": "honey",
+    "text": " Lorem ipsum dolor sit amet consectetur. A nulla condimentum condimentum eget",
+    "price": "$ 6/-"
+  },
+  {
+    "src": "../img/pistachio-ice-cream.png",
+    "title": "pistachio",
+    "text": " Lorem ipsum dolor sit amet consectetur. A nulla condimentum condimentum eget",
+    "price": "$ 2/-"
+  },
+  {
+    "src": "../img/Ice-cream-joao-ramos.png",
+    "title": "joao ramos",
+    "text": " Lorem ipsum dolor sit amet consectetur. A nulla condimentum condimentum eget",
+    "price": "$ 3/-"
+  },
+  {
+    "src": "../img/mini-cupcake-masterpieces.png",
+    "title": "cupcake",
+    "text": " Lorem ipsum dolor sit amet consectetur. A nulla condimentum condimentum eget",
+    "price": "$ 1.5/-"
+  },
+  {
+    "src": "../img/ice-cream-2.png",
+    "title": "ice-cream",
+    "text": " Lorem ipsum dolor sit amet consectetur. A nulla condimentum condimentum eget",
+    "price": "$ 7/-"
+  },
+  {
+    "src": "../img/ice-cream.png",
+    "title": "ice-cream",
+    "text": " Lorem ipsum dolor sit amet consectetur. A nulla condimentum condimentum eget",
+    "price": "$ 2.5/-"
+  },
+  {
+    "src": "../img/bubblegum-bliss.png",
+    "title": "bubble gum",
+    "text": " Lorem ipsum dolor sit amet consectetur. A nulla condimentum condimentum eget",
+    "price": "$ 7.5/-"
+  }
+]
