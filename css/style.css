@@ -47,7 +47,6 @@ body {
   /* font-size: 62.5%; */
   height: 100%;
   line-height: 1;
-  background-color: #a9bfc3;
 }
 
 button {
@@ -69,28 +68,58 @@ button {
 
 .card-section {
   background: linear-gradient(245deg, #c8e2fa 0%, #fad7f0 100%);
-  height: 100vh;
+  height: 100%;
 }
 
 .card-container {
+  padding: 90px 0;
 }
 
-.container {
-}
+/*? heading-container */
 
 .heading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Ice-title {
+  font-family: "Titan One";
+  font-weight: 400;
+  font-size: 62px;
+
+  color: #333;
+
+  margin-bottom: 14px;
 }
 
 .icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
 }
 
 .grid-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 30px;
 }
 
 .grid-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
 }
 
 .grid-item {
+  width: 215px;
+  height: 320px;
 }
 
 .grid-img {
