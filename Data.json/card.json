@@ -1,48 +1,64 @@
 [
   {
     "src": "../img/strawberry.png",
+    "gridClass": "strawberry-colo",
+    "listClass": "color-strawberry",
     "title": "strawberry",
     "text": " Lorem ipsum dolor sit amet consectetur. A nulla condimentum condimentum eget",
     "price": "$ 4/-"
   },
   {
     "src": "../img/honey-ice-cream.png",
+    "gridClass": "honey-color",
+    "listClass": "color-honey",
     "title": "honey",
     "text": " Lorem ipsum dolor sit amet consectetur. A nulla condimentum condimentum eget",
     "price": "$ 6/-"
   },
   {
     "src": "../img/pistachio-ice-cream.png",
+    "gridClass": "pistachio-color",
+    "listClass": "color-pistachio",
     "title": "pistachio",
     "text": " Lorem ipsum dolor sit amet consectetur. A nulla condimentum condimentum eget",
     "price": "$ 2/-"
   },
   {
     "src": "../img/Ice-cream-joao-ramos.png",
+    "gridClass": "ramos-color",
+    "listClass": "color-ramos",
     "title": "joao ramos",
     "text": " Lorem ipsum dolor sit amet consectetur. A nulla condimentum condimentum eget",
     "price": "$ 3/-"
   },
   {
     "src": "../img/mini-cupcake-masterpieces.png",
+    "gridClass": "cupcake-color",
+    "listClass": "color-cupcake",
     "title": "cupcake",
     "text": " Lorem ipsum dolor sit amet consectetur. A nulla condimentum condimentum eget",
     "price": "$ 1.5/-"
   },
   {
     "src": "../img/ice-cream-2.png",
+    "gridClass": "ice1-color",
+    "listClass": "color-ice1",
     "title": "ice-cream",
     "text": " Lorem ipsum dolor sit amet consectetur. A nulla condimentum condimentum eget",
     "price": "$ 7/-"
   },
   {
     "src": "../img/ice-cream.png",
+    "gridClass": "ice2-color",
+    "listClass": "color-ice2",
     "title": "ice-cream",
     "text": " Lorem ipsum dolor sit amet consectetur. A nulla condimentum condimentum eget",
     "price": "$ 2.5/-"
   },
   {
     "src": "../img/bubblegum-bliss.png",
+    "gridClass": "bliss-color",
+    "listClass": "color-bliss",
     "title": "bubble gum",
     "text": " Lorem ipsum dolor sit amet consectetur. A nulla condimentum condimentum eget",
     "price": "$ 7.5/-"
