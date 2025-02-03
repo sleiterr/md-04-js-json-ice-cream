@@ -9,7 +9,7 @@ const listIcon = document.querySelector(".list-icon");
 const postTemplateGrid = (post) => {
   return `
     <ul class="grid-list">
-       <li class="grid-item ${post.gridClass}">
+       <li class="grid-item ${post.gridClass}" data-aos="flip-left" data-aos-duration="1800">
         <img
             src="${post.src}"
             alt="${post.alt}"
@@ -27,7 +27,7 @@ const postTemplateGrid = (post) => {
 
 const postTemplateList = (post) => {
   return `
-    <li class="ice-item">
+    <li class="ice-item" >
        <img
         src="${post.src}"
         alt="${post.alt}"
@@ -74,8 +74,8 @@ const renderPost = async () => {
     gridBox.innerHTML = "";
 
     listBox.innerHTML = `
-    <ul class="list-column"></ul>
-    <ul class="list-column"></ul>
+    <ul class="list-column" data-aos="fade-right" data-aos-duration="1800"></ul>
+    <ul class="list-column" data-aos="fade-left" data-aos-duration="1800"></ul>
     `;
 
     const listColumns = document.querySelectorAll(".list-column");
