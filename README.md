@@ -36,3 +36,6 @@ TV serien ‘Friends’
 Link til XD design eksempel:
 
 https://xd.adobe.com/view/f96196d5-f605-42a4-80aa-e7e37125b36d-ac32/
+
+Link to Figma design
+https://www.figma.com/proto/QsCGF0kAtgBpWNNFSF5yk4/ice-cream-card?node-id=0-1&t=EjAQxDmkzMbeIpoW-1
