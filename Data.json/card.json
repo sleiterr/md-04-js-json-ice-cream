@@ -1,7 +1,8 @@
 [
   {
     "src": "../img/strawberry.png",
-    "gridClass": "strawberry-colo",
+    "alt": "strawberry",
+    "gridClass": "strawberry-color",
     "listClass": "color-strawberry",
     "title": "strawberry",
     "text": " Lorem ipsum dolor sit amet consectetur. A nulla condimentum condimentum eget",
@@ -9,6 +10,7 @@
   },
   {
     "src": "../img/honey-ice-cream.png",
+    "alt": "honey-ice-cream",
     "gridClass": "honey-color",
     "listClass": "color-honey",
     "title": "honey",
@@ -17,6 +19,7 @@
   },
   {
     "src": "../img/pistachio-ice-cream.png",
+    "alt": "pistachio-ice-cream",
     "gridClass": "pistachio-color",
     "listClass": "color-pistachio",
     "title": "pistachio",
@@ -25,6 +28,7 @@
   },
   {
     "src": "../img/Ice-cream-joao-ramos.png",
+    "alt": "Ice-cream-joao-ramos",
     "gridClass": "ramos-color",
     "listClass": "color-ramos",
     "title": "joao ramos",
@@ -33,6 +37,7 @@
   },
   {
     "src": "../img/mini-cupcake-masterpieces.png",
+    "alt": "mini-cupcake-masterpieces",
     "gridClass": "cupcake-color",
     "listClass": "color-cupcake",
     "title": "cupcake",
@@ -41,6 +46,7 @@
   },
   {
     "src": "../img/ice-cream-2.png",
+    "alt": "ice-cream-2",
     "gridClass": "ice1-color",
     "listClass": "color-ice1",
     "title": "ice-cream",
@@ -49,6 +55,7 @@
   },
   {
     "src": "../img/ice-cream.png",
+    "alt": "ice-cream",
     "gridClass": "ice2-color",
     "listClass": "color-ice2",
     "title": "ice-cream",
@@ -57,6 +64,7 @@
   },
   {
     "src": "../img/bubblegum-bliss.png",
+    "alt": "bubblegum-bliss",
     "gridClass": "bliss-color",
     "listClass": "color-bliss",
     "title": "bubble gum",
