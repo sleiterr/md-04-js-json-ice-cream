@@ -1,5 +1,5 @@
 const gridBox = document.querySelector(".grid-box");
-const listBox = document.querySelector(".lis-box");
+const listBox = document.querySelector(".list-box");
 
 const gridIcon = document.querySelector(".grid-icon");
 const listIcon = document.querySelector(".list-icon");
@@ -27,7 +27,6 @@ const postTemplateGrid = (post) => {
 
 const postTemplateList = (post) => {
   return `
-    <ul class="list-column">
     <li class="ice-item">
        <img
         src="${post.src}"
@@ -40,7 +39,6 @@ const postTemplateList = (post) => {
       </div>
       <p class="list-price">${post.price}</p>
     </li>
-    </ul>
     `;
 };
 
@@ -49,20 +47,21 @@ const postTemplateList = (post) => {
 const fetchPosts = async () => {
   try {
     const response = await fetch("../Data.json/card.json");
-    const post = await response.json();
-    return post;
+    const posts = await response.json();
+    return posts;
   } catch {
     console.error("Error fetching or parsing data:", error);
   }
 };
 
-const renderPosts = async () => {
+const renderPost = async () => {
   const posts = await fetchPosts();
+
   posts.forEach((post) => {
     gridBox.innerHTML += postTemplateGrid(post);
   });
 
-  gridIcon.addEventListener("clicl", () => {
+  gridIcon.addEventListener("click", () => {
     listBox.innerHTML = "";
     gridBox.innerHTML = "";
     posts.forEach((post) => {
@@ -70,13 +69,21 @@ const renderPosts = async () => {
     });
   });
 
-  listBox.addEventListener("clicl", () => {
+  listIcon.addEventListener("click", () => {
     listBox.innerHTML = "";
     gridBox.innerHTML = "";
-    posts.forEach((post) => {
-      listBox.innerHTML += postTemplateGrid(post);
+
+    listBox.innerHTML = `
+    <ul class="list-column"></ul>
+    <ul class="list-column"></ul>
+    `;
+
+    const listColumns = document.querySelectorAll(".list-column");
+
+    posts.forEach((post, index) => {
+      listColumns[index % 2].innerHTML += postTemplateList(post);
     });
   });
 };
 
-renderPosts();
+renderPost();

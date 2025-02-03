@@ -240,13 +240,12 @@ button {
   gap: 30px;
 }
 
-.lis-box {
+.list-box {
   display: flex;
   align-items: center;
   justify-content: center;
 
   gap: 50px;
-  margin-top: 60px;
 }
 
 .list-column {
