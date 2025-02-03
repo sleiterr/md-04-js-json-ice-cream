@@ -100,6 +100,10 @@ button {
   gap: 30px;
 }
 
+.icon-box img {
+  cursor: pointer;
+}
+
 .grid-box {
   /* display: flex;
   align-items: center;
@@ -116,8 +120,6 @@ button {
   margin-top: 60px;
 }
 
-.grid-list {
-}
 
 .grid-item {
   display: flex;
