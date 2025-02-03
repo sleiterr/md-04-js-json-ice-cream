@@ -1,6 +1,6 @@
 [
   {
-    "src": "../img/strawberry.png",
+    "src": "./img/strawberry.png",
     "alt": "strawberry",
     "gridClass": "strawberry-color",
     "listClass": "color-strawberry",
@@ -9,7 +9,7 @@
     "price": "$ 4/-"
   },
   {
-    "src": "../img/honey-ice-cream.png",
+    "src": "./img/honey-ice-cream.png",
     "alt": "honey-ice-cream",
     "gridClass": "honey-color",
     "listClass": "color-honey",
@@ -18,7 +18,7 @@
     "price": "$ 6/-"
   },
   {
-    "src": "../img/pistachio-ice-cream.png",
+    "src": "./img/pistachio-ice-cream.png",
     "alt": "pistachio-ice-cream",
     "gridClass": "pistachio-color",
     "listClass": "color-pistachio",
@@ -27,7 +27,7 @@
     "price": "$ 2/-"
   },
   {
-    "src": "../img/Ice-cream-joao-ramos.png",
+    "src": "./img/Ice-cream-joao-ramos.png",
     "alt": "Ice-cream-joao-ramos",
     "gridClass": "ramos-color",
     "listClass": "color-ramos",
@@ -36,7 +36,7 @@
     "price": "$ 3/-"
   },
   {
-    "src": "../img/mini-cupcake-masterpieces.png",
+    "src": "./img/mini-cupcake-masterpieces.png",
     "alt": "mini-cupcake-masterpieces",
     "gridClass": "cupcake-color",
     "listClass": "color-cupcake",
@@ -45,7 +45,7 @@
     "price": "$ 1.5/-"
   },
   {
-    "src": "../img/ice-cream-2.png",
+    "src": "./img/ice-cream-2.png",
     "alt": "ice-cream-2",
     "gridClass": "ice1-color",
     "listClass": "color-ice1",
@@ -54,7 +54,7 @@
     "price": "$ 7/-"
   },
   {
-    "src": "../img/ice-cream.png",
+    "src": "./img/ice-cream.png",
     "alt": "ice-cream",
     "gridClass": "ice2-color",
     "listClass": "color-ice2",
@@ -63,7 +63,7 @@
     "price": "$ 2.5/-"
   },
   {
-    "src": "../img/bubblegum-bliss.png",
+    "src": "./img/bubblegum-bliss.png",
     "alt": "bubblegum-bliss",
     "gridClass": "bliss-color",
     "listClass": "color-bliss",
