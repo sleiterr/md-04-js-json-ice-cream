@@ -6,66 +6,66 @@ const listIcon = document.querySelector(".list-icon");
 
 //? innerHtml
 
-const postTemplateGrid = (post) => {
+const cardTemplateGrid = (card) => {
   return `
     <ul class="grid-list">
-       <li class="grid-item ${post.gridClass}" data-aos="flip-left" data-aos-duration="1800">
+       <li class="grid-item ${card.gridClass}" data-aos="flip-left" data-aos-duration="1800">
         <img
-            src="${post.src}"
-            alt="${post.alt}"
+            src="${card.src}"
+            alt="${card.alt}"
             class="grid-img"
         />
         <div class="grid-content">
-            <h4 class="grid-title">${post.title}</h4>
-            <p class="grid-text">${post.text}</p>
-            <p class="grid-price">${post.price}</p>
+            <h4 class="grid-title">${card.title}</h4>
+            <p class="grid-text">${card.text}</p>
+            <p class="grid-price">${card.price}</p>
         </div>
         </li>
     </ul>
     `;
 };
 
-const postTemplateList = (post) => {
+const cardTemplateList = (card) => {
   return `
     <li class="ice-item" >
        <img
-        src="${post.src}"
-        alt="${post.alt}"
-        class="list-img ${post.listClass}"
+        src="${card.src}"
+        alt="${card.alt}"
+        class="list-img ${card.listClass}"
        />
       <div class="list-content">
-       <h4 class="list-title">${post.title}</h4>
-       <p class="list-text">${post.text}</p>
+       <h4 class="list-title">${card.title}</h4>
+       <p class="list-text">${card.text}</p>
       </div>
-      <p class="list-price">${post.price}</p>
+      <p class="list-price">${card.price}</p>
     </li>
     `;
 };
 
 //? get Data from JSON
 
-const fetchPosts = async () => {
+const fetchCards = async () => {
   try {
     const response = await fetch("./Data/card.json");
-    const posts = await response.json();
-    return posts;
+    const cards = await response.json();
+    return cards;
   } catch {
     console.error("Error fetching or parsing data:", error);
   }
 };
 
-const renderPost = async () => {
-  const posts = await fetchPosts();
+const renderCard = async () => {
+  const cards = await fetchCards();
 
-  posts.forEach((post) => {
-    gridBox.innerHTML += postTemplateGrid(post);
+  cards.forEach((card) => {
+    gridBox.innerHTML += cardTemplateGrid(card);
   });
 
   gridIcon.addEventListener("click", () => {
     listBox.innerHTML = "";
     gridBox.innerHTML = "";
-    posts.forEach((post) => {
-      gridBox.innerHTML += postTemplateGrid(post);
+    cards.forEach((card) => {
+      gridBox.innerHTML += cardTemplateGrid(card);
     });
   });
 
@@ -80,10 +80,10 @@ const renderPost = async () => {
 
     const listColumns = document.querySelectorAll(".list-column");
 
-    posts.forEach((post, index) => {
-      listColumns[index % 2].innerHTML += postTemplateList(post);
+    cards.forEach((card, index) => {
+      listColumns[index % 2].innerHTML += cardTemplateList(card);
     });
   });
 };
 
-renderPost();
+renderCard();
