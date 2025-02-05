@@ -120,7 +120,6 @@ button {
   margin-top: 60px;
 }
 
-
 .grid-item {
   display: flex;
   flex-direction: column;
@@ -132,6 +131,18 @@ button {
   box-shadow: 4px 4px 8px 3px rgba(0, 0, 0, 0.25);
   width: 100%;
   height: 460px;
+
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.grid-list .grid-item:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.grid-list:hover > .grid-item:not(:hover) {
+  filter: blur(10px);
+  transform: scale(0.9, 0.9);
 }
 
 .grid-img {

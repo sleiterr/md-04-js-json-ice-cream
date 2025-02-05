@@ -9,7 +9,7 @@ const listIcon = document.querySelector(".list-icon");
 const cardTemplateGrid = (card) => {
   return `
     <ul class="grid-list">
-       <li class="grid-item ${card.gridClass}" data-aos="flip-left" data-aos-duration="1800">
+       <li class="grid-item ${card.gridClass}">
         <img
             src="${card.src}"
             alt="${card.alt}"
@@ -43,12 +43,13 @@ const cardTemplateList = (card) => {
 };
 
 //? get Data from JSON
-
+//return promis
 const fetchCards = async () => {
   try {
     const response = await fetch("./Data/card.json");
     const cards = await response.json();
-    return cards;
+    return cards; // promis
+    // return console.log(cards);
   } catch {
     console.error("Error fetching or parsing data:", error);
   }
