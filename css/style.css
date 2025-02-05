@@ -140,10 +140,10 @@ button {
   transform: scale(1.1, 1.1);
 }
 
-.grid-list:hover > .grid-item:not(:hover) {
+/* .grid-list:hover > .grid-item:not(:hover) {
   filter: blur(10px);
   transform: scale(0.9, 0.9);
-}
+} */
 
 .grid-img {
   margin-top: auto;
@@ -280,6 +280,13 @@ button {
 
   border-radius: 100px;
   background: rgba(255, 255, 255, 0.34);
+
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.list-column .ice-item:hover {
+  transform: scale(1.1, 1.1);
 }
 
 .list-content {
